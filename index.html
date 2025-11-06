@@ -44,7 +44,8 @@
       border-radius: 30px;
       transition: background 0.15s, color 0.15s;
     }
-    nav a:hover, nav a.active {
+    nav a:hover,
+    nav a.active {
       background: #fdc86f;
       color: #1a202e;
       text-decoration: none;
@@ -59,7 +60,7 @@
     }
     h2 {
       font-family: 'Montserrat', Arial, sans-serif;
-      margin-top:0;
+      margin-top: 0;
       color: #224066;
       font-size: 1.7rem;
       letter-spacing: 0;
@@ -103,12 +104,16 @@
       background: none;
     }
     @media (max-width: 600px) {
-      main { 
+      main {
         padding: 1.1rem 0.5rem 1rem 0.5rem;
         border-radius: 8px;
       }
-      header h1 { font-size: 1.35rem; }
-      h2 { font-size: 1.07rem; }
+      header h1 {
+        font-size: 1.35rem;
+      }
+      h2 {
+        font-size: 1.07rem;
+      }
     }
   </style>
 </head>
@@ -120,19 +125,22 @@
       <a href="index.html" class="active">Home</a>
       <a href="welcome.html">Welcome</a>
       <a href="article_summaries.html">Article Summaries</a>
+      <a href="progress_reports.html">Progress Reports</a>
     </nav>
   </header>
 
   <main>
     <div class="highlight">
       <strong>Our research focuses on developing a low-cost, machine learning–based early earthquake detection system aimed at third-world countries.</strong>
-      <br>
+      <br />
       The goal is to create an accessible and reliable method to warn communities before severe shaking begins, reducing injuries and damage.
     </div>
 
     <h3>Key Objectives</h3>
     <ul>
-      <li>Integrate low-cost sensors with an edge ML model to detect seismic activity.</li>
+      <li>
+        Integrate low-cost sensors with an edge ML model to detect seismic activity.
+      </li>
       <li>Utilize cloud-based data sharing for regional alert systems.</li>
       <li>Develop a scalable and open-source framework for future research.</li>
     </ul>
@@ -150,3 +158,4 @@
   </script>
 </body>
 </html>
+
